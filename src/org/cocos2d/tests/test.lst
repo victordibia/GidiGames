@@ -1,0 +1,17 @@
+
+FontTest.m
+IntervalTest.m
+LayerTest.m
+
+ParallaxTest.m
+ProgressActionsTest.m
+RenderTextureTest.m
+RotateWorldTest.m
+SceneTest.m
+SpriteTest.m
+Texture2dTest.m
+
+--- chipmunk not ported
+ChipmunkAccelTouchTest.m
+
+HiResTest.m
