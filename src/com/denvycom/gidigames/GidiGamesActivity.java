@@ -79,6 +79,9 @@ public class GidiGamesActivity extends Activity {
 		CCDirector.sharedDirector().pause();
 		SoundEngine.sharedEngine().pauseSound();
 		
+		
+		// We attempt to save the game state such as the current puzzletype the current image etc
+		// You can even save the state of the game itself ... and restore it all in the onResume method
 		SharedPreferences screenDetails = app.getSharedPreferences("screendetails", MODE_PRIVATE);
 		Editor edit = screenDetails.edit();
 		edit.clear();
